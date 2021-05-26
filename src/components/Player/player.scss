@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.player{
+    width: 60%;
+    margin: auto;
+    .time-control{
+        display: flex;
+        justify-content: center;
+        p{
+            padding: 2rem;
+        }
+        input{
+            width: 100%;
+        }
+    }
+    .controller{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
